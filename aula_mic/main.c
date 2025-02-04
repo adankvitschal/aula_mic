@@ -6,10 +6,12 @@
  */ 
 
 #include <xc.h>
+#include "display.h"
 
 int main(void)
 {
     TCCR0A = 0x00;
+    showMessage("teste");
     while(1)
     {
         //TODO:: Please write your application code 
