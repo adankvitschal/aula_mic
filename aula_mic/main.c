@@ -9,6 +9,7 @@
 
 int main(void)
 {
+    TCCR0A = 0x00;
     while(1)
     {
         //TODO:: Please write your application code 
